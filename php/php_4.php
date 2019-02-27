@@ -10,7 +10,7 @@
 //Se inicializa el contador
              $i=0;
 			 //Creo la variable "terminar"
-			 $terminar = 356;
+			 $terminar = 35;
 			 //establezco el valor limite para impares menores de 1000
              while($i <= 1000){
 				 //Creo la terminacion del ciclo una vez la lectura de impares supere el de la variable $terminar
