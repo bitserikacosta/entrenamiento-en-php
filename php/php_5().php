@@ -21,8 +21,7 @@ if   ($cadena1 == $cadena2)
     echo "La cadena1 es mayor que la cadena2 en "; echo $Diferencia; echo " caracteres";
 
 } elseif ($cadena1 < $cadena2) {
-    echo "La cadena1 es menor que la cadena2 en "; echo $Diferencia2; echo " caracteres";
-	 	
+    echo "La cadena1 es menor que la cadena2 en "; echo $Diferencia2; echo " caracteres";	 	
 }
 
 ?> 
