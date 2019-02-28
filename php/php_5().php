@@ -8,7 +8,6 @@
 <?php 
 
 $cadena1 = 123; 
-
 $cadena2 = 127;
   
 $Diferencia = ($cadena1 - $cadena2);
@@ -25,8 +24,6 @@ if   ($cadena1 == $cadena2)
     echo "La cadena1 es menor que la cadena2 en "; echo $Diferencia2; echo " caracteres";
 	 	
 }
-
-
 
 ?> 
 
