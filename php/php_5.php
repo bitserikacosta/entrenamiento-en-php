@@ -8,7 +8,6 @@
 <?php 
 
 $cadena1 = "abcdefg"; 
-
 $cadena2 = "abcdefg";  
 
 if   ($cadena1 == $cadena2)
@@ -19,10 +18,8 @@ if   ($cadena1 == $cadena2)
     echo "La cadena1 es mayor que la cadena2 en "; echo strlen($cadena1); echo " caracteres";
 
 } elseif ($cadena1 < $cadena2) {
-    echo "La cadena1 es menor que la cadena2 en "; echo strlen($cadena2); echo " caracteres";
-	 	
+    echo "La cadena1 es menor que la cadena2 en "; echo strlen($cadena2); echo " caracteres";	 	
 }
-
 
 ?> 
 
