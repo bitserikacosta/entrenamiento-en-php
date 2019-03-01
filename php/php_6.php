@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<h1> <center>Ejercicio °6</></h1>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
 <body>
     <ul>
 <?php
@@ -30,6 +34,7 @@
  $IdCounter = 0;
 $id = array_keys($employees);
 $EmployeeSalary = 0;
+    
     
  foreach ($employees as $EmployeeName) {
  switch ($EmployeeName) {
@@ -65,5 +70,6 @@ echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
           echo "<br>"; echo "<ul>"; echo "<li>"; echo "<strong>"; echo $HighestIncome . " tiene el mayor salario de todos";  echo "</strong>";
         
         ?>
+
 </body>
 </html>
