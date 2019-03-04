@@ -51,7 +51,7 @@ echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
     echo "</ul>";echo "</li>";
                     break;
          
-                  case $EmployeeName['salary'] >= 1000;
+                  case $EmployeeName['salary'] >= 1000  || $EmployeeName['salary'] < 2000;
     echo "<ul>"; echo "<li>";
 echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
                         " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (Medio)";
