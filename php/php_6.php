@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+   <h1> <center>Ejercicio °6</></h1>
 </head>
 
 <body>
@@ -34,28 +34,27 @@
  $IdCounter = 0;
 $id = array_keys($employees);
 $EmployeeSalary = 0;
-    
-    
+       
  foreach ($employees as $EmployeeName) {
  switch ($EmployeeName) {
                 case $EmployeeName['salary'] < 1000;
      echo "<ul>"; echo "<li>";
 echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
-                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (bajo)";
+                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (Bajo)";
 echo "</ul>";echo "</li>";
                     break;
          
                           case $EmployeeName['salary'] >= 2000;
         echo "<ul>"; echo "<li>";
 echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
-                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (alto)";
+                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (Alto)";
     echo "</ul>";echo "</li>";
                     break;
          
                   case $EmployeeName['salary'] >= 1000;
     echo "<ul>"; echo "<li>";
 echo  $EmployeeName['firstname'] . " " . $EmployeeName['lastname']  .
-                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (medio)";
+                        " (ID: $id[$IdCounter])  tiene un salario de: " . "$" . $EmployeeName['salary'] . " (Medio)";
     echo "</ul>";echo "</li>";
                     break;
  }
